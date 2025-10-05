@@ -1,0 +1,47 @@
+@import './base';
+@import './homePage';
+@import './serviceSingle';
+
+// contact page
+.page-template-page-contact {
+    .service-hero-section {
+        z-index: 5;
+        position: relative;
+    }
+    .contact-info {
+        padding: 0px 15px 120px;
+        .contact-icon {
+            margin-bottom: 15px;
+        }
+        address, a {
+            color: #000;
+            text-decoration: none;
+        }
+    } 
+    .enquiry-wrap {
+        margin-top: 200px;
+    }
+    .enquiry-section {
+        position: relative;
+        .location-map {
+            width: 100%;
+            height: 60%;
+            top: 0;
+            left: 0;
+            margin-top: -50px;
+            position: absolute;
+        }
+    }
+}
+
+// about page
+.page-template-page-about {
+    .about-us-section {
+        padding: 175px 15px 50px;
+        background: $accent-blue;
+        .about-description {
+            font-size: 1.1rem;
+            margin-top: 35px;
+        }
+    }
+}
